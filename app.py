@@ -8,8 +8,8 @@ st.title("🎓 Student Profile")
 st.caption("My Profile")
 st.header("Personal Information")
 
-name = st.text_input("Enter Student Name", "xxxxxxxxx")
-usn = st.text_input("Enter USN", "xxxxxxxxx")
+name = st.text_input("Enter Student Name", "DEEPTI B D")
+usn = st.text_input("Enter USN", "1SV24CS038")
 
 department = st.selectbox(
     "Department",
@@ -28,7 +28,7 @@ if st.button("View My Profile"):
 
     st.subheader("Profile Details")
 
-    st.write("**Name:**", name)
-    st.write("**USN:**", usn)
-    st.write("**Department:**", department)
-    st.write("**Year:**", year)
+    st.write("**Name:**", DEEPTI B D)
+    st.write("**USN:**", 1SV24CS038)
+    st.write("**Department:**", CSE)
+    st.write("**Year:**", 3rd)
